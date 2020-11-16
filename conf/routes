@@ -1,0 +1,3 @@
+
+POST    /v1/shorten           controllers.ShortenerController.createShortURL
+GET     /g/:slug              controllers.ShortenerController.redirect(slug: String)
